@@ -27,6 +27,11 @@ defmodule BPS.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:httpoison, "~> 0.8.0"},
+      {:csv, "~> 1.2.0"},
+      {:elixir_mbcs, "~> 0.1.2"},
+      {:mbcs, github: "nekova/erlang-mbcs"}
+    ]
   end
 end
