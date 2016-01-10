@@ -34,7 +34,8 @@ defmodule BPS.Mixfile do
       {:httpoison, "~> 0.8.0"},
       {:csv, "~> 1.2.0"},
       {:elixir_mbcs, "~> 0.1.2"},
-      {:mbcs, github: "nekova/erlang-mbcs"}
+      {:mbcs, github: "nekova/erlang-mbcs"},
+      {:floki, "~> 0.7"}
     ]
   end
 end

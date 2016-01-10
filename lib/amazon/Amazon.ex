@@ -6,7 +6,7 @@ defmodule Amazon do
   end
 
   def process_response_body(body) do
-    Floki.find(body, "Items")
+    Floki.find(body, "item")
   end
 
 end
